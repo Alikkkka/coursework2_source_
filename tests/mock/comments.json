@@ -1,0 +1,20 @@
+[
+  {
+    "post_pk": 1,
+    "commenter_name": "hanna",
+    "comment": "Очень здорово!",
+    "pk": 1
+  },
+  {
+    "post_pk": 2,
+    "commenter_name": "julia",
+    "comment": ":)",
+    "pk": 1
+  },
+  {
+    "post_pk": 7,
+    "commenter_name": "ralf",
+    "comment": "Класс!",
+    "pk": 2
+  }
+]
