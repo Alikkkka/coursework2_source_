@@ -19,7 +19,7 @@ class PostsDAO:
             if post["pk"] == pk:
                 return post
 
-    def get_by_blogger(self, blogger_name):
+    def get_by_blogger_name(self, blogger_name):
         posts = self.get_all()
         posts_by_blogger = []
         for post in posts:

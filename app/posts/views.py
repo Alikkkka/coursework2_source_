@@ -67,6 +67,6 @@ def post_error(e):
 
 @posts_blueprint.route('/bloggers/<blogger_name>/')
 def search_by_blogger_name(blogger_name):
-    posts = posts_dao.get_by_blogger(blogger_name)
+    posts = posts_dao.get_by_blogger_name(blogger_name)
     posts_count = len(posts)
     return render_template("user-feed.html", posts=posts, posts_count=posts_count)
