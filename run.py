@@ -14,4 +14,4 @@ app.register_blueprint(posts_blueprint)
 app.register_blueprint(api_blueprint)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=7078)
+    app.run(debug=True, port=7018)
